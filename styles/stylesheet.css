@@ -1,0 +1,60 @@
+
+body{
+  background-color: bisque;
+}
+
+h1{
+text-align: center;
+color:royalblue;
+}
+
+p{
+color:blue;
+text-align: left;
+font-size: x-large;
+font-style:bold;
+}
+
+.required:after {
+content:" *";
+color: red;
+}
+
+.required{
+  margin:15px;
+}
+
+.firstname,
+.lastname {
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 2px blue;
+  margin: 10px;
+  width: 279px;
+}
+
+.container {
+  display: flex;
+}
+
+.address-name{
+  padding: 7px;
+    border-radius: 5px;
+    border-color: blue;
+    width: 250px;
+}
+.address{
+  padding:10px;
+}
+.address.required:after{
+  content: " *";
+  color: red;
+}
+.email-address{
+  padding: 4px;
+  width: 250px;
+  border-block-color: blue;
+  border-radius: 5px;
+}
+
+
